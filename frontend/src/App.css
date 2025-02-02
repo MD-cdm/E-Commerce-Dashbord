@@ -1,0 +1,224 @@
+.App {
+  background-color: antiquewhite;
+}
+body{
+  background-color: antiquewhite;
+}
+
+
+/* Start styling */
+.nav-ul li{
+  display: inline-block;
+  padding: 10px;
+  }
+
+.nav-ul li a {
+  color: #fff;
+  padding: 5px;
+  text-decoration: none;
+  font-size: 18px; /* Increased font size */
+  font-weight: bold; /* Makes text bold */
+  
+}
+
+.nav-ul {
+  margin: 0;
+  padding: 20px;
+  background-color: #137aad;
+  
+}
+
+/* footer part */
+.footer{
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background-color: #137aad;
+}
+.footer h3{
+  color: #fff;
+  padding: 20px;
+}
+/* Signup */
+.inputBox{
+  display: block;
+  margin: 25px;
+  padding: 7px;
+  width: 300px;
+  border: 1px solid #004E74;
+  border-radius: 5px;
+}
+
+.register,.product{
+  margin-left: 37%;
+}
+
+.login{
+  margin-left: 30%;
+  margin-top: 100px;
+}
+
+
+.appButton{
+  margin: 25px;
+  padding: 10px;
+  width: 150px;
+  background-color:rgb(10, 48, 84);
+  border: 1px solid;
+  cursor: pointer;
+  border-radius: 10px;
+  color: white;
+}
+.appButton:hover{
+  background-color: #004E74;
+}
+
+
+.nav-right{
+  text-align: right;
+}
+
+.logo{
+  width: 65px;
+  float: left;
+  border-radius: 50%;
+  margin-top: 10px;
+  margin-left: 60px;
+  
+}
+.invalid-input{
+  color: red;
+  margin-top: -20px;
+  display: block;
+  margin-left: 25px;
+}
+.product-list{
+  text-align: center;
+  margin-top: 50px;
+}
+
+
+
+.product-list ul li {
+  display: inline-block;
+  border: 1px solid #004E74;
+  padding: 5px;
+  flex: 1;
+  text-align: center;
+  width: auto;
+  white-space: nowrap; /* Extra space hatane ke liye */
+  overflow: hidden; /* Extra text hide karne ke liye */
+  text-overflow: ellipsis; /* Text overflow hone par "..." show karega */
+  
+}
+
+.product-list ul {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  list-style: none;
+  margin: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.product-list h3{
+  font-size: 25px;
+  font-weight: 700;
+  
+}
+.head{
+  font-size: 20px;
+  font-weight: 650;
+}
+.search-product-box{
+  width: 400px;
+  margin: 20px;
+  height: 40px;
+  border: 1px solid #004E74;
+  padding-left: 20px;
+  border-radius: 5px;
+}
+
+/* Profile.css */
+
+.profile-container {
+  width: 50%;
+  height: 200px;
+ margin-top:60px ;
+ margin-left: 350px;
+ background-color: white;
+ 
+  padding: 30px;
+  border: 1px solid #004E74;
+  border-radius: 5px;
+}
+
+.profile-details p {
+  font-size: 18px;
+  margin: 10px 0;
+  padding: 5px;
+}
+/* logout btn on profilr */
+.btn{
+  width: 60px;
+  height: 28px;
+  color: white;
+  border-radius: 5px;
+  font-weight: 600;
+  border: none;
+  background-color:rgb(249, 3, 3);
+}
+.deletep{
+  width: 55px;
+  height: 25px;
+  color: white;
+  border-radius: 5px;
+  font-weight: 600;
+  border: none;
+  background-color:rgb(249, 3, 3);
+}
+.link{
+  margin-left: 15px;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
